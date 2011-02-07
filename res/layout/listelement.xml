@@ -2,9 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent" android:layout_height="wrap_content"
 	android:orientation="vertical" android:gravity="center_horizontal|center">
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content" android:text="TextView" android:gravity="right"></TextView>
 	<TextView android:text="TextView" android:id="@+id/textView2"
 		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
-	<TextView android:text="TextView" android:id="@+id/textView1"
-		android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="right"></TextView>
 
 </LinearLayout>
